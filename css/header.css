@@ -79,12 +79,17 @@
     align-items: center;
     column-gap: 5rem;    
 }
-.contact-links ul li a{
+.contact-links ul li i{
     font-size: 38px;
     color: #ffff;
-
+    padding: 0.7rem;
 }
-
+.contact-links ul li i:hover{
+  border-radius: 28px;
+  background-color: #ffff;
+  color: black;
+  transition: 1s ease all;
+}
 .scroll-up-btn{
     width: 100%;
     position: absolute;
