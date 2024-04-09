@@ -1,0 +1,108 @@
+.header-container{
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+}
+.header-main-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-main-text h1{
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal; 
+    color: #ffff;
+    font-size: 54px;
+    text-transform: uppercase;
+    letter-spacing: 1.5rem;
+}
+
+.title {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+  animation: typewriter 15s steps(150) infinite, blinking-cursor 0.2s infinite;
+  animation-fill-mode: forwards steps(5)
+}
+
+@keyframes typewriter {
+  0% { width:0 }
+  25% { width: 100% }
+  48% { width: 100% }
+  50% { width: 100% }
+  55% { width: 100% }
+  75% { width: 100%; }
+  85% { width: 0; }
+  100% { width: 0; }
+}
+
+@keyframes blinking-cursor {
+  from { border-color: transparent }
+  to { border-color: black }
+}
+     
+.header-main-text p{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    line-height: 3rem;
+    font-weight: bold;
+}
+
+.tiny-border{
+  width: 13rem;
+  border: 0.5px solid #ffff;
+}
+.contact-links{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 20;
+    margin-bottom: 10rem;
+}
+.contact-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5rem;    
+}
+.contact-links ul li a{
+    font-size: 38px;
+    color: #ffff;
+
+}
+
+.scroll-up-btn{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 20;
+    margin-bottom: 3rem;
+    animation: up-down 0.7s ease-in-out infinite alternate-reverse both;
+}
+.scroll-up-btn i{
+    color: #ffff;
+    font-size: 32px;
+}
+@keyframes up-down {
+    0% {
+      transform: translateY(5px);
+    }
+  
+    100% {
+      transform: translateY(-5px);
+    }
+  }
