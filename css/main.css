@@ -2,7 +2,9 @@
 @import url(/css/about.css);
 @import url(/css/portfolio.css);
 
-
+:root{
+    --secondry-bg-color: #884A39;
+}
 
 
 *{
