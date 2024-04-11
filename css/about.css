@@ -118,7 +118,7 @@
     width: 100%;
     border-radius: 6px;
     margin-top: 6px;
-    background: red;
+    background: black;
 }
 .skill-bar .skill-per{
     position: relative;
@@ -126,21 +126,21 @@
     height: 100%;
     width: 100%;
     border-radius: 6px;
-    background: black;
+    background: grey;
     animation: progress 0.4s ease-in-out forwards;
     opacity: 0;
 }
 .skill-per.css{
     width: 90%;
-    animation-delay: 0.1s;
+    animation-delay: 0.4s;
 }
 .skill-per.javascript{
     width: 30%;
-    animation-delay: 0.2s;
+    animation-delay: 0.5s;
 }
 .skill-per.react{
     width: 10%;
-    animation-delay: 0.3s;
+    animation-delay: 0.6s;
 }
 @keyframes progress {
     0%{
@@ -150,3 +150,4 @@
     100%{
         opacity: 1;
     }
+}
