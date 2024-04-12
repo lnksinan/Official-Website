@@ -11,13 +11,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 3rem;
 }
 .portfolio .heading{
+    font-size: 28px;
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 1rem;
     color: #ffff;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .portfolio h4{
@@ -106,7 +109,7 @@
     color: #ffff;
 }
 .more-info-btn{
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 .more-info-btn a{
     background-color: beige;

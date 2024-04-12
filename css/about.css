@@ -128,7 +128,7 @@
     height: 100%;
     width: 100%;
     border-radius: 6px;
-    background: #884A39;
+    background: red;
     animation: progress 0.4s ease-in-out forwards;
     opacity: 0;
 }
